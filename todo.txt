@@ -1,0 +1,2 @@
+Get a simple button on the front end that can start a backend process, aswell and design a first iteration of the layout.
+Install tailwind and find some pretty stuff online for design. Im thinking muted brown/orange for the scheme 
