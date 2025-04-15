@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+body 
+{
+  background-color: rgb(31, 6, 63);
+}
+
+.screen-centering 
+{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

@@ -3,12 +3,23 @@ import './App.css';
 import React from 'react';
 
 import HelloWorld from './HelloWorld';
+import { MainButton } from './components/mainButton';
+import { Hamburger } from './components/nav/hamburger';
+
+function test()
+{
+}
 
 function App() {
   return (
-    <div>
-      <HelloWorld />
+    <div className='m-2'>
+      <Hamburger onClick={test}/>
+      <div className= "screen-centering">
+        <MainButton/>
+      </div>
     </div>
+    
+    
   );
 }
 
